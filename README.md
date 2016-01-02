@@ -16,7 +16,7 @@ ClassMap will consist of a drag and drop interface to allow for a more user frie
 
 ### Planning
 
-[See this project's hackathon entry page!](http://www.hackathon.io/pearson)
+[See this project's Devpost entry page!](http://devpost.com/software/classmap)
 
 ### Demo
 
