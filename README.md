@@ -13,7 +13,8 @@ The "App Overview" section intends to be a high level description of your app. T
 
 ## App Overview
 
-"My Contest App" enables students to control notifications related to their classes from their cell phone. This improves their awareness of assignments and due dates through customizable alerts. It is proven that today's students are more tech savvy than ever. They expect to interact with classes in the same way as their social networks. "My Contest App" makes courses more mobile and social by doing something remarkable...
+"The use of imagery and keywords are two of the strongest techniques for learning a new topic or subject. These two techniques can be used by people with learning disabilities, students learning foreign languages, and just about anyone else struggling with new subjects. The concept of using imagery and keywords is the whole idea behind mind maps. Now imagine, a mind map where students in a particular class could post keywords, images, and other useful items to an ever growing, ever changing community mind map. A mind map that is expanded and shaped by the singular mind of a class! This is the idea behind our application, ClassMap.
+ClassMap will consist of a drag and drop interface to allow for a more user friendly experience. To offset the clutter that multiple users will undoubtedly bring to a mind map, ClassMap will feature an "upvote" system to allow the most helpful information to appear more prominent, while hiding "less" helpful information. A mind map can't grow if a student does not understand the keywords they should expand on. Using Pearon's dictionary APIs, we will give meaning to complex keywords that may be difficult for some students to understand, allowing for greater expansion, and in the end, better understanding. In the end, the teacher should have a map of the brain of the class. By observing keywords, images, files, and how they were expanded on, the teacher will be able to see which topics need to be focused on more and hopefully be able to touch on those topics in a more relatable way to the student.
 
 ### Planning
 
@@ -36,11 +37,11 @@ The "App Details" section intends to explain how your app works. Describe the ma
 
 ## App Details
 
-"My Contest App" utilizes a 3rd party messaging system to keep classmates alerted of assignments. This was chosen over text messages and push notifications because of the great selection of emoji and meme support.
+"ClassMap consists of a drag and drop interface. Students and teachers can add a variety of node types to the map including, Text Nodes, Image Nodes, and YouTube videos. Right clicking on a node will bring up it's content in a larger window for easier viewing. An upvote system ensures you can always do away with 
+nodes you may not be interested in. Once and user has upvoted a node, they have the option to click the home button, bringing up their personalized ClassMap.
 
 ### API Usage
 
- * [3rd Party Messaging API](#) - provides communication services
  * [LearningStudio API](http://developer.pearson.com/learningstudio/course-apis/course-info/enrollment/reference) - provides class schedules and rosters
  * [LearningStudio Eventing](http://developer.pearson.com/learningstudio/receive-events) - provides realtime notifications of class happenings
 
@@ -56,7 +57,7 @@ The "Prerequisites" section intends to assist someone get started with your sour
 
 ### Build Environment 
 
- * XCode 6.3.1 is required.
+ * IntelliJ 
  * Swift 1.2 is required
  * Java 7 or greater is required
  * Maven 2 is required
@@ -125,14 +126,15 @@ The "Credit" section intends to highlight your team. Tell who contributed to wha
 
 This project was a collaborative effort. We are all classmates in CS101 at Cool University.
 
- * [Jill Doe](#) - marketing and presentation
- * [Joe Doe](#) - graphics and videos
- * [Jane Doe](#) - iOS application
- * [John Doe](#) - java server application
+ * [Aaron Martin](#) - marketing and presentation
+ * [Jamie Davis](#) - graphics and videos
+ * [Travis Clinkscales](#) - iOS application
+ * [Soumith Thumma](#) - java server application
+ * [John Tran](#) - java server application
 
 ### Other
 
-This project would not have been possible without [Professor Smith](#) and [Doctor Jones](#). They informed us of the coding contest and acted as mentored during the entire process.
+This project would not have been possible without [Professor Kumar](#). They informed us of the coding contest and acted as mentored during the entire process.
 
 <!--
 The "License" section intends to be a license declaration. Checkout choosealicence.com to become familar with different licences. The full license should be included in the LICENSE file, but you can also declare and link to it here.
