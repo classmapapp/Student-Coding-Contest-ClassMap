@@ -124,11 +124,11 @@ The "Credit" section intends to highlight your team. Tell who contributed to wha
 
 This project was a collaborative effort. We are all classmates in CS101 at Cool University.
 
- * [Aaron Martin](#) - marketing and presentation
- * [Jamie Davis](#) - graphics and videos
- * [Travis Clinkscales](#) - iOS application
- * [Soumith Thumma](#) - java server application
- * [John Tran](#) - java server application
+ * [Aaron Martin](#) - Creator, programmer
+ * [Jamie Davis](#) - Programmer
+ * [Travis Clinkscales](#) - Programmer, stylist
+ * [Soumith Thumma](#) - Programmer
+ * [John Tran](#) - Researcher, stylist
 
 ### Other
 
