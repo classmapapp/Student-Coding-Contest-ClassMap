@@ -24,7 +24,7 @@ ClassMap will consist of a drag and drop interface to allow for a more user frie
 
 ### Screenshots
 
-![Login Screenshot](http://www.aaronwmartin.com/images/login.PNG)
+![Login Screenshot](http://www.aaronwmartin.com/images/login.jpg)
 ![Register Screenshot](http://www.aaronwmartin.com/images/register.jpg)
 ![Running Screenshot](http://www.aaronwmartin.com/images/running.jpg)
 
