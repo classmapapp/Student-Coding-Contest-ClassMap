@@ -11,9 +11,11 @@ The "App Overview" section intends to be a high level description of your app. T
 
 ## App Overview
 
-"The use of imagery and keywords are two of the strongest techniques for learning a new topic or subject. These two techniques can be used by people with learning disabilities, students learning foreign languages, and just about anyone else struggling with new subjects. The concept of using imagery and keywords is the whole idea behind mind maps. Now imagine, a mind map where students in a particular class could post keywords, images, and other useful items to an ever growing, ever changing community mind map. A mind map that is expanded and shaped by the singular mind of a class! This is the idea behind our application, ClassMap.
+The use of imagery and keywords are two of the strongest techniques for learning a new topic or subject. These two techniques can be used by people with learning disabilities, students learning foreign languages, and just about anyone else struggling with new subjects. The concept of using imagery and keywords is the whole idea behind mind maps. Now imagine, a mind map where students in a particular class could post keywords, images, and other useful items to an ever growing, ever changing community mind map. A mind map that is expanded and shaped by the singular mind of a class! This is the idea behind our application, ClassMap.
 ClassMap will consist of a drag and drop interface to allow for a more user friendly experience. To offset the clutter that multiple users will undoubtedly bring to a mind map, ClassMap will feature an "upvote" system to allow the most helpful information to appear more prominent, while hiding "less" helpful information. A mind map can't grow if a student does not understand the keywords they should expand on. Using Pearon's dictionary APIs, we will give meaning to complex keywords that may be difficult for some students to understand, allowing for greater expansion, and in the end, better understanding. In the end, the teacher should have a map of the brain of the class. By observing keywords, images, files, and how they were expanded on, the teacher will be able to see which topics need to be focused on more and hopefully be able to touch on those topics in a more relatable way to the student.
 
+### Project GitHub Repository
+[ClassMap GitHub](https://github.com/classmapapp/Student-Coding-Contest-ClassMap)
 ### Planning
 
 [See this project's Devpost entry page!](http://devpost.com/software/classmap)
@@ -35,8 +37,11 @@ The "App Details" section intends to explain how your app works. Describe the ma
 
 ## App Details
 
-"ClassMap is a desktop application which consists of a drag and drop interface. Students and teachers can add a variety of node types to the map including, Text Nodes, Image Nodes, and YouTube videos. Right clicking on a node will bring up it's content in a larger window for easier viewing. An upvote system ensures you can always do away with 
-nodes you may not be interested in. Once and user has upvoted a node, they have the option to click the home button, bringing up their personalized ClassMap.
+ClassMap is a desktop application which consists of a drag and drop interface. Students and teachers can add a variety of node types to the map including, Text Nodes, Image Nodes, and YouTube videos. Right clicking on a node will bring up it's content in a larger window for easier viewing. An upvote system ensures you can always do away with 
+nodes you may not be interested in. Once and user has upvoted a node, they have the option to click the home button, bringing up their personalized ClassMap.<p>
+You can either log in to our premade accounts or create your own. The log in details for a teacher and student account are below.<br>
+Student- username: amartin125971, password: hello<br>
+Teacher- username: kumar, password: kumar
 
 ### API Usage
 
@@ -52,11 +57,11 @@ The "Prerequisites" section intends to assist someone get started with your sour
 -->
 
 ## Prerequisites
-"The following prereqiosotes are essential to be able to use and modify our code. You must have prior knowledge in MySQL to handle the back-end database side, JavaFX, basic knowledge of tree structures, and finally basic trigonometry.
+The following prerequisites are essential to be able to use and modify our code. You must have prior knowledge in MySQL to handle the back-end database side, JavaFX, basic knowledge of tree structures, and finally basic trigonometry.
 
 ### Build Environment 
 
- * IntelliJ 
+ * IntelliJ IDEA
  * [JDK 8u72](https://jdk8.java.net/download.html) - Needed to display YouTube videos
 
 <!--
@@ -64,9 +69,9 @@ The "Installation" section intends to assist someone deploy your project themsel
 -->
 
 ## Application Deployment
-Run<br>
-\ClassMapAppFX\out\artifacts\ClassMapAppFX\ClassMapAppFX.jar<br>
-From Student-Coding-Contest-ClassMap repository.
+"Run<br>
+\ClassMapAppFX\out\artifacts\ClassMapAppFX\ClassMapAppFX.jar
+<br>From Student-Coding-Contest-ClassMap repository.
 
 <!--
 The "Credit" section intends to highlight your team. Tell who contributed to what parts of the project. Give thanks to mentors that were helpful.
