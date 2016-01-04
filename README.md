@@ -64,8 +64,8 @@ The "Installation" section intends to assist someone deploy your project themsel
 -->
 
 ## Application Deployment
-"Run
-\ClassMapAppFX\out\artifacts\ClassMapAppFX\ClassMapAppFX.jar
+Run<br>
+\ClassMapAppFX\out\artifacts\ClassMapAppFX\ClassMapAppFX.jar<br>
 From Student-Coding-Contest-ClassMap repository.
 
 <!--
@@ -74,7 +74,7 @@ The "Credit" section intends to highlight your team. Tell who contributed to wha
 
 ### Team
 
-This project was a collaborative effort. We are all classmates in CS101 at Cool University.
+This project was a collaborative effort. Everyone attends Troy University other than Jamie who attends University of West Florida.
 
  * [Aaron Martin](mailto: amartin125971@troy.edu) - Creator, programmer
  * [Jamie Davis](mailto: jedwarddavis902@gmail.com) - Programmer
