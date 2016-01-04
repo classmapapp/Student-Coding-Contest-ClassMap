@@ -16,6 +16,7 @@
       <element id="archive" name="ClassMapAppFX.jar">
         <element id="module-output" name="ClassMapAppFX" />
       </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/Images" />
       <element id="library" level="project" name="lib" />
       <element id="library" level="project" name="mysql-connector-java-5.1" />
     </root>
