@@ -1,0 +1,98 @@
+/*root classmap*/
+.classmap-root{
+   /* -fx-background-color: #353c3f; */
+    -fx-background-image: url("sample/darker.jpg");
+    /*  -fx-background-color: #003b46; ocean */
+    /* -fx-background-color: #201c1e; blue-green */
+}
+
+.button{
+    -fx-background-color: linear-gradient(#dc9656, #ab4642);
+    /* -fx-background-color: #07575b; ocean */
+    /* -fx-background-color: #004445; blue-green */
+    -fx-background-radius: 6;
+    -fx-font-size: 10pt;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(#9ea7e5, #61a2b1);
+}
+
+#menu-button{
+    -fx-background-color: linear-gradient(#dc9656, #ab4642);
+    /* -fx-background-color: #07575b; ocean */
+    /* -fx-background-color: #004445; blue-green */
+    -fx-background-radius: 5;
+    -fx-font-size: 10pt;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+#menu-button:hover{
+    -fx-background-color: linear-gradient(#9ea7e5, #61a2b1);
+}
+
+.label{
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 10pt;
+}
+
+.menu-item{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.menu-item:hover{
+    -fx-background-color: #07575b;
+}
+
+.new-node{
+    -fx-fill: white;
+    -fx-stroke: black;
+}
+
+.up-vote{
+    -fx-font: 20 arial;
+}
+
+/*login root*/
+.login-root{
+    -fx-background-color: linear-gradient(#485563, #29323c);
+   /* -fx-border-color: white;
+    -fx-border-radius: 4;*/
+
+
+}
+.login-button{
+    -fx-background-color: linear-gradient(#dc9656, #ab4642);
+    -fx-font-size: 10pt;
+}
+
+.login-button:hover{
+    -fx-background-color: linear-gradient(#9ea7e5, #61a2b1);
+}
+
+.login-button:selected{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+#toolbar{
+    -fx-background-color: linear-gradient(#485563, #29323c);
+    /* -fx-background-color: linear-gradient(#66a5ad, #c4dfe6); ocean */
+    /* -fx-background-color: linear-gradient(#2c7873, #6fb98f); blue-green */
+}
+
+.alert-dialog{
+    -fx-background-color: linear-gradient(#485563, #29323c);
+    -fx-text-fill: white;
+}
+
+.alert-dialog .button{
+    -fx-background-color: linear-gradient(#dc9656, #ab4642);
+}
+
+#mainmenu {
+    -fx-background-color: #29323c;
+}
