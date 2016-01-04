@@ -20,13 +20,13 @@ ClassMap will consist of a drag and drop interface to allow for a more user frie
 
 ### Demo
 
-[Watch a video of the application in action!](https://www.youtube.com/watch?v=8BFMaQjrw4s)
+[Watch a video of the application in action!](https://www.youtube.com/watch?v=ExpJavVUKfE)
 
 ### Screenshots
 
-![Login Screenshot](http://developer.pearson.com/sites/default/files/LSDashboard_Login_small.png)
-![Launch Screenshot](http://developer.pearson.com/sites/default/files/LSDashboard_NewActivity_small.png)
-![Settings Screenshot](http://developer.pearson.com/sites/default/files/LSDashboard_Settings_small.png)
+![Login Screenshot](http://www.aaronwmartin.com/images/login.jpg)
+![Register Screenshot](http://www.aaronwmartin.com/images/register.jpg)
+![Settings Screenshot](http://www.aaronwmartin.com/images/running.jpg)
 
 
 <!--
