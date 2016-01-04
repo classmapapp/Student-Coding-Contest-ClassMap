@@ -89,3 +89,7 @@ This project would not have been possible without [Professor Kumar](mailto: skum
 <!--
 The "License" section intends to be a license declaration. Checkout choosealicence.com to become familar with different licences. The full license should be included in the LICENSE file, but you can also declare and link to it here.
 -->
+
+## License
+
+*[License.txt](https://github.com/classmapapp/Student-Coding-Contest-ClassMap/blob/master/License.txt)
