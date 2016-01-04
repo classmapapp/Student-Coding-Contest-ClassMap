@@ -35,113 +35,57 @@ The "App Details" section intends to explain how your app works. Describe the ma
 
 ## App Details
 
-"ClassMap consists of a drag and drop interface. Students and teachers can add a variety of node types to the map including, Text Nodes, Image Nodes, and YouTube videos. Right clicking on a node will bring up it's content in a larger window for easier viewing. An upvote system ensures you can always do away with 
+"ClassMap is a desktop application which consists of a drag and drop interface. Students and teachers can add a variety of node types to the map including, Text Nodes, Image Nodes, and YouTube videos. Right clicking on a node will bring up it's content in a larger window for easier viewing. An upvote system ensures you can always do away with 
 nodes you may not be interested in. Once and user has upvoted a node, they have the option to click the home button, bringing up their personalized ClassMap.
 
 ### API Usage
 
- * [LearningStudio API](http://developer.pearson.com/learningstudio/course-apis/course-info/enrollment/reference) - provided discussion topics
- * [Pearson Content API](http://developer.pearson.com/learningstudio/receive-events) - provided definitions for text nodes
+ * [LearningStudio API](http://developer.pearson.com/products/learningstudio) - provided discussion topics
+ * [Pearson Content API](http://developer.pearson.com/apis/dictionaries) - provided definitions for text nodes
 
 ### Scope of Functionality 
 
-This application is mostly functional. The number of users able to use this application is limited by shortcuts taken for data storage. These were necessary to finish by the deadline, but replacing the temporary data store with a more scaleble solution would make this application ready for prime time!
+Although ClassMap is not technically limited in any aspect of it's functionality, users have experienced odd map glitches that bring down the map. If the map extends too far, the map can break and may remain broke until the trouble node is removed. Other problems exist with our log-in and Classmap loading times. The load times may be a bit excessive as more and more nodes are added. If your window says not responding, simply wait until all the data is loaded and the information will be displayed on the window when it is all loaded.
 
 <!--
 The "Prerequisites" section intends to assist someone get started with your source code. They might not be familar with your frameworks or project structure. Help them out by explaining what you already know. 
 -->
 
 ## Prerequisites
+"The following prereqiosotes are essential to be able to use and modify our code. You must have prior knowledge in MySQL to handle the back-end database side, JavaFX, basic knowledge of tree structures, and finally basic trigonometry.
 
 ### Build Environment 
 
  * IntelliJ 
- * Swift 1.2 is required
- * Java 7 or greater is required
- * Maven 2 is required
-
-### Server Environment 
-
- * Any app server supporting the Java 2.5 Servlet Specification
+ * [JDK 8u72](https://jdk8.java.net/download.html) - Needed to display YouTube videos
 
 <!--
 The "Installation" section intends to assist someone deploy your project themselves. What do they need to configure, package, and distribute?
 -->
 
-## Installation
-
-### Application Configuration
-
-JavaServer/MyContestApp/src/main/resources/LearningStudio.properties
-
-~~~~~~~~~~~~~~
-application_id={Application Id}
-client_string={Client String}
-~~~~~~~~~~~~~~
-
-iOS/MyContestApp/LearningStudio.plist
-
-~~~~~~~~~~~~~~
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>app_id</key>
-    <string>{Application Id}</string>
-    <key>client_string</key>
-    <string>{Client/Environment Identifier}</string>
-</dict>
-</plist>
-~~~~~~~~~~~~~~
-
-### Application Deployment
-
-#### Build
-
-Java Server
-
-~~~~~~~~~~~~~~
-cd server
-mvn clean package
-~~~~~~~~~~~~~~
-
-iOS App - build with xCode
-
-
-#### Deploy 
-
-Java Server - copy target/my-contest-app.war to the server
-
-iOS App - run in emulator
+## Application Deployment
+"Run
+\ClassMapAppFX\out\artifacts\ClassMapAppFX\ClassMapAppFX.jar
+From Student-Coding-Contest-ClassMap repository.
 
 <!--
 The "Credit" section intends to highlight your team. Tell who contributed to what parts of the project. Give thanks to mentors that were helpful.
 -->
 
-## Credit
-
 ### Team
 
 This project was a collaborative effort. We are all classmates in CS101 at Cool University.
 
- * [Aaron Martin](#) - Creator, programmer
- * [Jamie Davis](#) - Programmer
- * [Travis Clinkscales](#) - Programmer, stylist
- * [Soumith Thumma](#) - Programmer
- * [John Tran](#) - Researcher, stylist
+ * [Aaron Martin](mailto: amartin125971@troy.edu) - Creator, programmer
+ * [Jamie Davis](mailto: jedwarddavis902@gmail.com) - Programmer
+ * [Travis Clinkscales](mailto: tclinkscales@troy.edu) - Programmer, stylist
+ * [Soumith Thumma](https://github.com/soumiththumma) - Programmer
+ * [John Tran](https://www.facebook.com/john.m.tran.7?fref=ts) - Researcher, Artist
 
 ### Other
 
-This project would not have been possible without [Professor Kumar](#). They informed us of the coding contest and acted as mentored during the entire process.
+This project would not have been possible without [Professor Kumar](#). He informed us of the coding contest and acted as mentored during the entire process.
 
 <!--
 The "License" section intends to be a license declaration. Checkout choosealicence.com to become familar with different licences. The full license should be included in the LICENSE file, but you can also declare and link to it here.
 -->
-
-## License
-
-My Chosen License
-
-~~~~~~~~~~~~~~
-http://choosealicense.com/
-~~~~~~~~~~~~~~
