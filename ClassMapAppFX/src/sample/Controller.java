@@ -55,8 +55,7 @@ import javax.imageio.ImageIO;
 import javax.imageio.ImageReadParam;
 import javax.imageio.ImageReader;
 import javax.imageio.stream.ImageInputStream;
-
-
+import javax.swing.*;
 
 
 public class Controller {
@@ -1143,12 +1142,16 @@ public class Controller {
             dialog.setHeaderText("Enter the URL below.");
             dialog.setContentText("URL: ");
             Optional<String> result = dialog.showAndWait();
+            if(result.toString().contains("youtube.com/watch?v=")) {
 
-            videoNode = new VideoNode(result.get());
-            videoNode.getNodePane().setOnMousePressed(OnMousePressedEventHandler);
-            videoNode.getNodePane().setOnMouseDragged(OnMouseDraggedEventHandler);
-            videoNode.getNodePane().setOnMouseReleased(VideoOnMouseReleasedEventHandler);
-            newNodeStage.getChildren().add(videoNode.getNodePane());
+                videoNode = new VideoNode(result.get());
+                videoNode.getNodePane().setOnMousePressed(OnMousePressedEventHandler);
+                videoNode.getNodePane().setOnMouseDragged(OnMouseDraggedEventHandler);
+                videoNode.getNodePane().setOnMouseReleased(VideoOnMouseReleasedEventHandler);
+                newNodeStage.getChildren().add(videoNode.getNodePane());
+            }
+            else
+                JOptionPane.showMessageDialog(null, "Not a valid youtube URL.");
         }
     }
 

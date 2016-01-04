@@ -364,7 +364,8 @@ public class DataConnection {
             conn.close();
         } catch (Exception e) {
             try {
-                File path = new File("./Images/arrow-up-icon.png");
+                JOptionPane.showMessageDialog(null, "This image failed to upload.\n Try saving the image and upload as file.");
+                File path = new File("./Images/error.jpg");
                 Image newArrow = new Image(path.toURI().toString());
 
                 BufferedImage bImage = SwingFXUtils.fromFXImage(newArrow, null);
