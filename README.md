@@ -40,8 +40,8 @@ nodes you may not be interested in. Once and user has upvoted a node, they have 
 
 ### API Usage
 
- * [LearningStudio API](http://developer.pearson.com/learningstudio/course-apis/course-info/enrollment/reference) - provides class schedules and rosters
- * [LearningStudio Eventing](http://developer.pearson.com/learningstudio/receive-events) - provides realtime notifications of class happenings
+ * [LearningStudio API](http://developer.pearson.com/learningstudio/course-apis/course-info/enrollment/reference) - provided discussion topics
+ * [Pearson Content API](http://developer.pearson.com/learningstudio/receive-events) - provided definitions for text nodes
 
 ### Scope of Functionality 
 
